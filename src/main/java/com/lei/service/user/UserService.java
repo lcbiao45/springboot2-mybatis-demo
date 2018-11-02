@@ -4,14 +4,14 @@
 package com.lei.service.user;
 
 import com.github.pagehelper.PageInfo;
-import com.lei.model.UserDomain;
+import com.lei.model.TUser;
 
 /**
  * Created by Administrator on 2018/4/19.
  */
 public interface UserService {
 
-    int addUser(UserDomain user);
+    int addUser(TUser user);
 
-    PageInfo<UserDomain> findAllUser(int pageNum, int pageSize);
+    PageInfo<TUser> findAllUser(int pageNum, int pageSize);
 }
