@@ -1,9 +1,10 @@
-package com.winterchen.service.user;
+/*
+ * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
+ */
+package com.lei.service.user;
 
 import com.github.pagehelper.PageInfo;
-import com.winterchen.model.UserDomain;
-
-import java.util.List;
+import com.lei.model.UserDomain;
 
 /**
  * Created by Administrator on 2018/4/19.

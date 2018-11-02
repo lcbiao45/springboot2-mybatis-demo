@@ -1,4 +1,7 @@
-package com.winterchen.model;
+/*
+ * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
+ */
+package com.lei.model;
 
 public class UserDomain {
     private Integer userId;

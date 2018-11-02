@@ -1,8 +1,11 @@
-package com.winterchen.controller;
+/*
+ * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
+ */
+package com.lei.controller;
 
-import com.github.pagehelper.PageHelper;
-import com.winterchen.model.UserDomain;
-import com.winterchen.service.user.UserService;
+import com.lei.service.user.UserService;
+import com.lei.model.UserDomain;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

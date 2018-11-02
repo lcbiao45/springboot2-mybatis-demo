@@ -1,8 +1,10 @@
-package com.winterchen.dao;
+/*
+ * Copyright (C) 2018 Baidu, Inc. All Rights Reserved.
+ */
+package com.lei.dao;
 
 
-import com.winterchen.model.UserDomain;
-import org.apache.ibatis.annotations.Mapper;
+import com.lei.model.UserDomain;
 
 import java.util.List;
 
