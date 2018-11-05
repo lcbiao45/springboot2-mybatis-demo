@@ -18,6 +18,9 @@
 --
 -- Table structure for table `chapter`
 --
+DROP Database IF EXISTS `idiom`;
+CREATE Database `idiom`;
+use `idiom`;
 
 DROP TABLE IF EXISTS `chapter`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
