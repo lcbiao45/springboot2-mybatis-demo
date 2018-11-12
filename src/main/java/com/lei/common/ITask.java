@@ -5,6 +5,7 @@ package com.lei.common;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 /**
  * 多线程执行任务入参实体类
@@ -35,7 +36,6 @@ public class ITask<T, R> {
         this.function = function;
     }
 
-
     /**
      * 通过Consumer构建ITask
      */
@@ -48,4 +48,15 @@ public class ITask<T, R> {
         });
         return iTask;
     }
+
+    /**
+     * 通过Consumer构建ITask
+     */
+    public static ITask buildITask(String taskName, Supplier supplier) {
+        ITask iTask = new ITask();
+        iTask.setTaskName(taskName);
+        iTask.setFunction(p -> supplier.get());
+        return iTask;
+    }
+
 }
