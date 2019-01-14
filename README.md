@@ -11,3 +11,5 @@
 ### 额外功能：
 
 * PageHelper 分页插件
+
+mvn mybatis-generator:generate
